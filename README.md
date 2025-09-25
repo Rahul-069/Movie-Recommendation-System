@@ -41,17 +41,17 @@ git clone https://github.com/your-username/anime-recommendation-system.git
 cd anime-recommendation-system
 ```
 
-###2. Install Requirements
+### 2. Install Requirements
 ```
 pip install -r requirements.txt
 ```
 
-###3. Run the script
+### 3. Run the script
 ```
 python main.py
 ```
 
-##📜 Menu Options
+## 📜 Menu Options
 When you run the program, you’ll see a menu like this:
 ```
 Menu:
@@ -63,7 +63,7 @@ e. Recommend Movie
 f. Exit
 ```
 
-##📊 Recommendation Logic
+## 📊 Recommendation Logic
 1. Identify anime highly rated (≥ 7) by the user.
 
 2. Collect genres of these anime.
