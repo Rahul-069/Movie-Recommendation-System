@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 anime_df = pd.read_csv('anime.csv')
-rating_df = pd.read_csv('rt.csv')
+rating_df = pd.read_csv('ratings.csv')
 
 user_dict = {}
 anime_dict = {}
@@ -112,4 +112,5 @@ def menu():
             break
         else:
             print("Invalid choice. Please try again.")
+
 menu()
