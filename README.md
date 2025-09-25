@@ -1,4 +1,4 @@
-# Anime Recommendation System  
+# Movie Recommendation System  
 
 This project implements an **Anime Recommendation Engine** that suggests anime to users based on their previous ratings and genre similarities.  
 It uses **Content-Based Filtering** with **TF-IDF** and **Cosine Similarity** to recommend the most relevant anime titles.  
