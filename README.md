@@ -50,3 +50,26 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+##📜 Menu Options
+When you run the program, you’ll see a menu like this:
+```
+Menu:
+a. Count Users
+b. Count Movies
+c. Display User Information
+d. Display Movie Name
+e. Recommend Movie
+f. Exit
+```
+
+##📊 Recommendation Logic
+1. Identify anime highly rated (≥ 7) by the user.
+
+2. Collect genres of these anime.
+
+3. Convert genres into TF-IDF vectors.
+
+4. Compute cosine similarity between user’s preferences and all other anime.
+
+5. Recommend the Top 5 most similar anime (excluding already watched ones).
