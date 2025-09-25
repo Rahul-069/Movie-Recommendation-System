@@ -64,9 +64,9 @@ f. Exit
 ```
 
 ## 📊 Recommendation Logic
-## 1. Identify anime highly rated (≥ 7) by the user.
+### 1. Identify anime highly rated (≥ 7) by the user.
 
-## 2. Collect genres of these anime.
+### 2. Collect genres of these anime.
 
 3. Convert genres into TF-IDF vectors.
 
