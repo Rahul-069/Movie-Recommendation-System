@@ -1,11 +1,11 @@
-# 🎬 Anime Recommendation System  
+# Anime Recommendation System  
 
 This project implements an **Anime Recommendation Engine** that suggests anime to users based on their previous ratings and genre similarities.  
 It uses **Content-Based Filtering** with **TF-IDF** and **Cosine Similarity** to recommend the most relevant anime titles.  
 
 ---
 
-## 🚀 Features  
+## Features  
 
 - Load and preprocess **anime dataset** and **user ratings dataset**.  
 - Count number of users and movies in the dataset.  
@@ -16,7 +16,7 @@ It uses **Content-Based Filtering** with **TF-IDF** and **Cosine Similarity** to
 
 ---
 
-## ⚙️ Tech Stack  
+## Tech Stack  
 
 - **Python 3.8+**  
 - **pandas** → data preprocessing  
@@ -24,7 +24,7 @@ It uses **Content-Based Filtering** with **TF-IDF** and **Cosine Similarity** to
 
 ---
 
-## 📂 Dataset  
+## Dataset  
 
 The project uses two CSV files:  
 
@@ -33,7 +33,7 @@ The project uses two CSV files:
 
 ---
 
-## 🖥️ Usage  
+## Usage  
 
 ### 1. Clone the Repository  
 ```bash
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📜 Menu Options
+## Menu Options
 When you run the program, you’ll see a menu like this:
 ```
 Menu:
@@ -63,7 +63,7 @@ e. Recommend Movie
 f. Exit
 ```
 
-## 📊 Recommendation Logic
+## Recommendation Logic
 1. Identify anime highly rated (≥ 7) by the user.
 
 2. Collect genres of these anime.
