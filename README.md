@@ -68,8 +68,8 @@ f. Exit
 
 ### 2. Collect genres of these anime.
 
-3. Convert genres into TF-IDF vectors.
+### 3. Convert genres into TF-IDF vectors.
 
-4. Compute cosine similarity between user’s preferences and all other anime.
+### 4. Compute cosine similarity between user’s preferences and all other anime.
 
-5. Recommend the Top 5 most similar anime (excluding already watched ones).
+### 5. Recommend the Top 5 most similar anime (excluding already watched ones).
