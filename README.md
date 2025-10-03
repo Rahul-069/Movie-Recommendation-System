@@ -29,7 +29,7 @@ It uses **Content-Based Filtering** with **TF-IDF** and **Cosine Similarity** to
 The project uses two CSV files:  
 
 1. **anime.csv** – Contains details of anime (id, name, genre, type, episodes, rating, members).  
-2. **rt.csv** – Contains user ratings (`user_id`, `anime_id`, `rating`).  
+2. **ratings.csv** – Contains user ratings (`user_id`, `anime_id`, `rating`).  
 
 ---
 
